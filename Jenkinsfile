@@ -6,8 +6,8 @@ pipeline {
      // DOCKERHUB_USERNAME  (it doesn't matter if you don't have one)
      // REPOSITORY_DOCKERHUB
      // REPOSITORY_GITHUB
-     REPOSITORY_TAG="${ORGANIZATION_NAME}/${REPOSITORY_DOCKERHUB}:${BUILD_ID}"
-     registry = "${ORGANIZATION_NAME}/${REPOSITORY_DOCKERHUB}"
+     REPOSITORY_TAG="${ORGANIZATION_NAME}/${REPOSITORY_MVN}:${BUILD_ID}"
+     registry = "${ORGANIZATION_NAME}/${REPOSITORY_MVN}"
      registryCredential = 'dockerhub'
      dockerImage = ''
    }
@@ -16,7 +16,7 @@ pipeline {
       stage('Preparation') {
          steps {
             cleanWs()
-            git credentialsId: 'GitHub', url: "https://github.com/${ORGANIZATION_NAME}/${REPOSITORY_GITHUB}"
+            git credentialsId: 'GitHub', url: "https://github.com/${ORGANIZATION_NAME}/${REPOSITORY_MVN}"
          }
       }
       stage('Create Application Build') {
