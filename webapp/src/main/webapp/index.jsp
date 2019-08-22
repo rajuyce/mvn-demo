@@ -1,5 +1,5 @@
 <html>
-   <head><title>Hello!</title></head>
+   <head><title>EKS</title></head>
    
    <body bgcolor="#00aff0">
       <p style="text-align:center;"><font size="5" color="white"></font></p>
@@ -7,7 +7,7 @@
 <p style="text-align:center;"><font size="5" color="white">You are accessing sample JSP Web page</font></p>
       <p style="text-align:center;"><font size="4" color="white">
       <%
-         out.println("This POD is Running on Server " + request.getRemoteAddr());
+         out.println("This Pod is Running on Server: " + request.getRemoteAddr());
       %>
          </font></p>
    </body>
