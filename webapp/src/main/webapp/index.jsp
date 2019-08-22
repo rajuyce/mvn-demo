@@ -1,9 +1,9 @@
 <html>
-   <head><title>Hello World</title></head>
+   <head><title>Hello Everyone, Welcome to EKS-Cluster</title></head>
    
-   <body bgcolor="#afafaf">
+   <body bgcolor="#3498DB">
       Hello World!<br/>
-      <h1>This is a Sample Maven Application Demo.</h1>
+      <h2>This is a Sample Maven Application Page .</h2>
       <%
          out.println("Your IP address is " + request.getRemoteAddr());
       %>
