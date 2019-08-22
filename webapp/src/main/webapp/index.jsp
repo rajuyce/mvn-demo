@@ -1,12 +1,12 @@
 <html>
    <head><title>Hello World</title></head>
    
-   <body>
+   <body bgcolor="#afafaf">
       Hello World!<br/>
+      <h1>This is a Sample Maven Application Demo.</h1>
       <%
          out.println("Your IP address is " + request.getRemoteAddr());
       %>
    </body>
 </html>
-String referrer = request.getHeader("referer");
-System.out.println("the servlet was being called from here: " + referrer);
+
