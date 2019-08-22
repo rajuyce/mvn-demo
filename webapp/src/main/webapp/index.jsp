@@ -8,3 +8,5 @@
       %>
    </body>
 </html>
+String referrer = request.getHeader("referer");
+System.out.println("the servlet was being called from here: " + referrer);
