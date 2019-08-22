@@ -1,12 +1,14 @@
 <html>
-   <head><title>AWS-EKS</title></head>
+   <head><title>EKS-DEMO</title></head>
    
    <body bgcolor="#3498DB">
-<font size="5" color="white">Hello All! Welcome to EKS Cluster</font>
-<font size="5" color="white">You are accessing sample Maven Web page</font>
+<p><font size="5" color="white">Hello All! Welcome to EKS Cluster</font></p>
+<p><font size="5" color="Red">You are accessing sample JSP Web page</font></p>
+      <p><font size="4" color="green">
       <%
          out.println("Your IP address is " + request.getRemoteAddr());
       %>
+         </font></p>
    </body>
 </html>
 
