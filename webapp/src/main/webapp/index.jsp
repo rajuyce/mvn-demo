@@ -7,7 +7,7 @@
 <p style="text-align:center;"><font size="5" color="white">You are accessing sample JSP Web page</font></p>
       <p style="text-align:center;"><font size="4" color="white">
       <%
-         out.println("Your IP address is " + request.getRemoteAddr());
+         out.println("This POD is Running on Server " + request.getRemoteAddr());
       %>
          </font></p>
    </body>
