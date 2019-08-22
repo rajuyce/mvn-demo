@@ -2,8 +2,8 @@
    <head><title>AWS-EKS</title></head>
    
    <body bgcolor="#3498DB">
-<p style="color:red:25px;">Hello All! Welcome to EKS Cluster</p>
-<p style="color:white:25px;">You are accessing sample Maven Web page</p>
+<font size="5" color="white">Hello All! Welcome to EKS Cluster</font>
+<font size="5" color="white">You are accessing sample Maven Web page</font>
       <%
          out.println("Your IP address is " + request.getRemoteAddr());
       %>
