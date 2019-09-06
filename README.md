@@ -1,1 +1,2 @@
 # mvn-demo
+# srv-blue
